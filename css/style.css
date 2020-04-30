@@ -1,0 +1,50 @@
+table {
+    border-spacing: 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+  }
+  th, tr{
+    background-color: white;
+    color: black;
+  }
+ 
+  /* Styling for odd rows before buttom click*/
+  tr:nth-child(even){
+    background-color:  #f2f2f2;
+  }
+
+.container{
+    width: 25%;
+    float: left;
+}
+
+.btnContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+#btnZebra{
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 50px;
+  background-color: #127912;
+  color: white;
+}
+#btnZebra2{
+  margin: 0 auto;
+  margin-top: -50px;
+  height: 50px;
+  background-color: #8c0a0a;
+  color: white;
+  visibility: hidden;
+}
